@@ -8,6 +8,7 @@ module.exports = {
     "plugin:react-hooks/recommended",
   ],
   env: {
+    es6: true,
     jest: true,
   },
   ignorePatterns: ["dist", ".eslintrc.cjs"],
