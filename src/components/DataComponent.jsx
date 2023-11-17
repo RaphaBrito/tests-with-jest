@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import fetchData from "../services/api";
 
 export default function DataComponent() {
-  const [data, setData] = useState("");
+  const [data, setData] = useState("vazio");
 
   useEffect(() => {
     async function fetchDataAsync() {
